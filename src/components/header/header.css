@@ -3,3 +3,8 @@
   width: 100%;
   background-color: black;
 }
+.whiteBox {
+  height: 50%;
+  width: 90%;
+  background: white;
+}
