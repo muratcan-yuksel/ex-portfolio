@@ -4,7 +4,13 @@
   background-color: black;
 }
 .whiteBox {
-  height: 50%;
+  height: 90%;
   width: 90%;
   background: white;
+}
+.name {
+  font-size: 7rem;
+}
+.occupation {
+  font-size: 4rem;
 }
