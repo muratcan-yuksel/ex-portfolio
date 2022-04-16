@@ -15,20 +15,23 @@
   font-size: 4rem;
 }
 .triangle {
-  border: solid;
+  /* position: absolute; */
+  border: 2px solid black;
   border-top: 0;
   border-right: 0;
-  width: 100px;
-  height: 100px;
+  width: 20rem;
+  height: 20rem;
+  /* transform: rotateZ(-45deg); */
 }
 .line1 {
   position: relative;
   border: 1px solid black;
-  height: 138px !important;
+  height: 452px !important;
   width: 0px !important;
-  left: 48px;
-  bottom: 19px;
+  left: 158px;
+  bottom: 66px;
   transform: rotateZ(-45deg);
+  /* box-shadow: 0 0 10px red; */
 }
 
 /* media queries for name */
