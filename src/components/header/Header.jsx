@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { BsTriangle } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -10,9 +11,10 @@ const Header = () => {
           Web <span className="three">3</span> developer{" "}
         </div>
         <div className="stack">ReactJS Solidity</div>
-        <div className="triangle">
+        {/* <div className="triangle">
           <div className="line1"></div>
-        </div>
+        </div> */}
+        <BsTriangle className="tri" />
       </div>
     </div>
   );
