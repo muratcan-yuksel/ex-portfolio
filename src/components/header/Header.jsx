@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import { BsTriangle } from "react-icons/bs";
+import Dots from "./dots-wrapper/Dots";
 
 const Header = () => {
   return (
@@ -14,41 +15,7 @@ const Header = () => {
         <div className="stack">ReactJS Solidity</div>
 
         {/* <BsTriangle className="tri" /> */}
-        <div id="wrapper">
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>{" "}
-          <div className="innerwrapper ">
-            <div className="move"></div>
-          </div>
-        </div>
+        <Dots />
       </div>
     </div>
   );

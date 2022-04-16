@@ -133,7 +133,7 @@
 }
 #wrapper {
   display: table;
-  width: 100%;
+  width: 80%;
   height: 100px;
 }
 
@@ -144,9 +144,9 @@
 
 .move {
   position: relative;
-  -webkit-animation: backandforth 10s linear 0s;
+  -webkit-animation: backandforth 5s linear 0s;
   -webkit-animation-iteration-count: infinite;
-  animation: backandforth 10s linear 0s, gradient 2s ease-in-out infinite;
+  animation: backandforth 5s linear 0s, gradient 2s ease-in-out infinite;
   animation-iteration-count: infinite;
   border: solid;
   width: 50px;
@@ -162,6 +162,26 @@
     #090e0c
   );
   background-size: 400% 400%;
+}
+.oneSec {
+  animation: backandforth 5s linear 1s, gradient 2s ease-in-out infinite;
+  animation-iteration-count: infinite;
+}
+.twoSec {
+  animation: backandforth 5s linear 2s, gradient 2s ease-in-out infinite;
+  animation-iteration-count: infinite;
+}
+.threeSec {
+  animation: backandforth 5s linear 3s, gradient 2s ease-in-out infinite;
+  animation-iteration-count: infinite;
+}
+.oneSec {
+  animation: backandforth 5s linear 1s, gradient 2s ease-in-out infinite;
+  animation-iteration-count: infinite;
+}
+.oneSec {
+  animation: backandforth 5s linear 1s, gradient 2s ease-in-out infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes backandforth {
@@ -185,6 +205,5 @@
   }
   100% {
     left: 0;
-    right: 0;
   }
 }
