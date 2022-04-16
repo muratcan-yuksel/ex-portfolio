@@ -10,6 +10,9 @@ const Header = () => {
           Web <span className="three">3</span> developer{" "}
         </div>
         <div className="stack">ReactJS Solidity</div>
+        <div className="triangle">
+          <div className="line1"></div>
+        </div>
       </div>
     </div>
   );

@@ -14,6 +14,23 @@
 .occupation {
   font-size: 4rem;
 }
+.triangle {
+  border: solid;
+  border-top: 0;
+  border-right: 0;
+  width: 100px;
+  height: 100px;
+}
+.line1 {
+  position: relative;
+  border: 1px solid black;
+  height: 138px !important;
+  width: 0px !important;
+  left: 48px;
+  bottom: 19px;
+  transform: rotateZ(-45deg);
+}
+
 /* media queries for name */
 @media only screen and (max-width: 980px) {
   .name {
