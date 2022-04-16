@@ -1,13 +1,23 @@
 import React from "react";
-import Dot from "./dots/Dot";
 
 const Dots = () => {
-  const arr = ["one", "two", "three", "four", "five"];
   return (
     <div id="wrapper">
-      {arr.map((item, index) => {
-        return <Dot array={arr} className={item + "Sec"} />;
-      })}
+      <div className="innerwrapper ">
+        <div className={"move"}></div>
+      </div>{" "}
+      <div className="innerwrapper ">
+        <div className={"move twoSec"}></div>
+      </div>{" "}
+      <div className="innerwrapper ">
+        <div className={"move threeSec"}></div>
+      </div>{" "}
+      <div className="innerwrapper ">
+        <div className={"move fourSec"}></div>
+      </div>{" "}
+      <div className="innerwrapper ">
+        <div className={"move fiveSec"}></div>
+      </div>
     </div>
   );
 };
