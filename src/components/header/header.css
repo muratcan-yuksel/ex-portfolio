@@ -18,19 +18,20 @@
 .whiteBox {
   display: flex;
   flex-direction: column;
-  height: 97%;
-  width: 97%;
-  background: white;
+  height: 95%;
+  width: 96%;
+  background: black;
   border-radius: 2%;
 }
 .name {
   font-size: 7rem;
-  /* color: white; */
+  color: rgb(107, 106, 106);
 }
 .animatedLine {
 }
 .occupation {
   font-size: 4rem;
+  color: rgb(107, 106, 106);
 }
 .tri {
   font-size: 10rem;
