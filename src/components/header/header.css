@@ -21,33 +21,50 @@
   flex-direction: column;
   height: 95%;
   width: 96%;
-  background: black;
   border-radius: 2%;
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 5%;
+  padding-top: 5%;
 }
+
 .name {
   font-size: 7rem;
   color: whitesmoke;
 }
+
 .animatedLine {
 }
 .occupation {
   font-size: 4rem;
   color: rgb(107, 106, 106);
+  /* margin-top: 2%; */
 }
 
 .three {
+  animation-name: fades;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
-/* .triangle {
-  position: absolute;
-  border: 2px solid black;
-  border-top: 0;
-  border-right: 0;
-  width: 30rem;
-  height: 30rem;
-  transform: rotateZ(135deg);
-  top: 20rem;
-} */
+
+@keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .line1 {
   position: relative;
   border: 1px solid black;
