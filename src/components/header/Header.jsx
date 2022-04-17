@@ -15,7 +15,7 @@ const Header = () => {
         <div className="stack">ReactJS Solidity</div>
 
         {/* <BsTriangle className="tri" /> */}
-        <Dots />
+        {/* <Dots /> */}
       </div>
     </div>
   );

@@ -25,7 +25,7 @@
 }
 .name {
   font-size: 7rem;
-  color: rgb(107, 106, 106);
+  color: whitesmoke;
 }
 .animatedLine {
 }
@@ -131,6 +131,8 @@
     /* box-shadow: 0 0 10px red; */
   }
 }
+
+/* styling dots */
 #wrapper {
   display: table;
   width: 80%;
@@ -163,43 +165,14 @@
   );
   background-size: 400% 400%;
 }
-.oneSec {
-  animation: backandforth 5s linear 1s, gradient 2s ease-in-out infinite;
-  animation-iteration-count: infinite;
-}
-.twoSec {
-  animation: backandforth 5s linear 2s, gradient 2s ease-in-out infinite;
-  animation-iteration-count: infinite;
-}
-.threeSec {
-  animation: backandforth 5s linear 3s, gradient 2s ease-in-out infinite;
-  animation-iteration-count: infinite;
-}
-.oneSec {
-  animation: backandforth 5s linear 1s, gradient 2s ease-in-out infinite;
-  animation-iteration-count: infinite;
-}
-.oneSec {
-  animation: backandforth 5s linear 1s, gradient 2s ease-in-out infinite;
-  animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes backandforth {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 58%;
-  }
-  100% {
-    left: 0;
-  }
-}
 
 @keyframes backandforth {
   0% {
     left: 0;
   }
+  /* 35% {
+    height: 500px;
+  } */
   50% {
     left: 100%;
   }
@@ -207,3 +180,4 @@
     left: 0;
   }
 }
+/* styling dots ends */
