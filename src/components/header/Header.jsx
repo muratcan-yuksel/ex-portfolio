@@ -14,13 +14,12 @@ const Header = () => {
           Web <span className="three">3</span> developer{" "}
         </div>
         <div className="intro">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo
-          dolor provident obcaecati asperiores porro doloribus aliquam delectus
-          et veritatis molestias odio, optio, voluptatum harum ducimus officia
-          quia, sit blanditiis? Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Maxime asperiores, sed eius dolorem ducimus quasi
-          aperiam fugit nisi perferendis architecto labore quo, vel tempore
-          assumenda! Reprehenderit maiores odio magnam nemo.
+          During the day I develop web applications with VueJs. During the night
+          I code with ReactJs and Solidity. <br />
+          You can find me on GitHub and LinkedIn by clicking the relevant icons
+          below. <br />
+          If you click the DEV icon, it will take you to my dev.to profile,
+          where you can check the tutorials I've written.
         </div>
         <div className="logos ">
           <a
