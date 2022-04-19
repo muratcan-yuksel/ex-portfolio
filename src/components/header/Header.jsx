@@ -6,7 +6,7 @@ import Dots from "./dots-wrapper/Dots";
 const Header = () => {
   return (
     <div className="header d-flex justify-content-center align-items-center">
-      <div className="whiteBox d-flex flex-column  align-items-center justify-content-lg-start align-items-lg-start">
+      <div className="whiteBox d-flex flex-column  align-items-start justify-content-center justify-content-lg-start align-items-lg-start">
         <div className="greeting">Hi, my name is</div>
         <div className="name text-center">Murat Can Yüksel</div>
         <div className="greeting">I'm a</div>

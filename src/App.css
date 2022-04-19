@@ -1,3 +1,9 @@
+@font-face {
+  font-family: zilla;
+  src: url("./assets/fonts/ZillaSlab-MediumItalic.ttf");
+}
+
 .App {
   height: 100vh;
+  font-family: zilla;
 }
