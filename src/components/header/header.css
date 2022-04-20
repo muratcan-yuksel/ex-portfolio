@@ -1,5 +1,13 @@
 .header {
-  background: linear-gradient(-45deg, #f06f48, #e73c7e, #0890c2, #090e0c);
+  background: linear-gradient(
+    -285deg,
+    #000000,
+    #0a7377,
+    rgb(116, 3, 3),
+    #0ae003,
+    rgb(7, 7, 7),
+    #d60846b9
+  );
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   height: 100%;
@@ -56,6 +64,7 @@
   font-size: 1.1rem;
   line-height: 1.6rem;
   margin: 1rem 0;
+  font-weight: bold;
 }
 .logo {
   font-size: 2.2rem;
