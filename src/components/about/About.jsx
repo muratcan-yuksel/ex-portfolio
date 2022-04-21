@@ -4,9 +4,15 @@ import "./about.css";
 const About = () => {
   return (
     <div className="aboutComponent">
-      <div className="aboutMe"></div>
-      <div className="techStack"></div>
-      <div className="glass"></div>
+      <div className="texts d-flex flex-column flex-md-row ">
+        <div className="aboutMe">
+          <h2 className="title">About Me</h2>
+        </div>
+        <div className="techStack">
+          <h2 className="title">My Tech Stack</h2>
+        </div>
+      </div>
+      {/* <div className="glass"></div> */}
     </div>
   );
 };
