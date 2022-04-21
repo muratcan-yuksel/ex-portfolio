@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(
+  /* background: linear-gradient(
     -285deg,
     #000000,
     #0a7377,
@@ -7,8 +7,11 @@
     #0ae003,
     rgb(7, 7, 7),
     #d60846b9
-  );
+  ); */
+  background-image: url("../../assets/images/bg.png");
+
   background-size: 400% 400%;
+
   animation: gradient 5s ease infinite;
   height: 100%;
 }

@@ -1,0 +1,12 @@
+.parallaxOne {
+  height: 100%;
+  width: 100vw;
+}
+.bg {
+  object-fit: contain;
+  background-image: url("../../assets/images/parallax7.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  width: 100%;
+  object-position: center;
+}
