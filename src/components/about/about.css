@@ -1,7 +1,10 @@
 .aboutComponent {
-  /* background: ; */
+  background: black;
   height: 100vh;
-  color: black;
+  color: white;
+  /* -webkit-clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
+  margin-top: -10rem; */
 }
 .glass {
   width: 200px;
