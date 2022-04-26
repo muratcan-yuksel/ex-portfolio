@@ -13,7 +13,7 @@ const About = () => {
           <h2 className="title">My Tech Stack</h2>
         </div>
       </div>
-      {/* <div className="glass"></div> */}
+      <div className="glass"></div>
     </div>
   );
 };
