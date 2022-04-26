@@ -1,7 +1,11 @@
-import React from "react";
+import { React, useEffect } from "react";
 import "./about.css";
 
 const About = () => {
+  useEffect(() => {
+    document.body.style.backgroundColor = "black";
+  }, []);
+
   return (
     <div className="aboutComponent">
       <div className="texts d-flex flex-column flex-md-row ">

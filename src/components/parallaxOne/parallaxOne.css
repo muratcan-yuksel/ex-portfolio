@@ -1,6 +1,7 @@
 .parallaxOne {
   height: 50%;
   width: 100vw;
+  background: white;
 }
 .bg {
   object-fit: cover;
