@@ -13,6 +13,7 @@ const About = () => {
         </div>
       </div>
       {/* <div className="glass"></div> */}
+      <div className="block glow"></div>
     </div>
   );
 };
