@@ -13,8 +13,7 @@ const About = () => {
             </div>
             <p className="para">
               Since a while, I've been working remotely as a full time front-end
-              developer (VueJS), although my presonal preference goes with
-              ReactJs
+              developer (VueJS), although I prefer to work with ReactJs.
             </p>
             <p className="para">
               I'm a self-taught programmer, my BA is in Comp. Lit. (I studied it
@@ -26,13 +25,29 @@ const About = () => {
             <p className="para">I'm fluent in English, French, and Turkish.</p>
             <p className="para">
               As a lifelong learner, these days I'm interested heavily with the
-              web3 space.
+              web3 space. I've developed a couple of NFT websites for the Solana
+              blockchain already, but I'm more interested in Ethereum
+              blockchain, as I develop with Solidity mainly.
+            </p>
+            <p className="para">
+              I travelled most of the European countries, lived, worked and
+              studied in 4 of them. I was a journalist in Brussels, and was
+              doing marketing in France.
+            </p>
+            <p className="para">
+              In my current company, I'm the only web developer in the team. I
+              think the burden of responsibility had tremendous effect on the
+              development of my skills.
+            </p>
+            <p className="para">
+              If you are interested in web3, have something in mind, or just
+              want to say hello, please feel free to contact me :){" "}
             </p>
           </div>
         </div>
-        <div className="techStack">
+        <div className="techStackContainer">
           <h2 className="title">My Tech Stack</h2>
-          <div className="glass">
+          <div className="glass techStack d-flex justify-content-center ">
             <ul>
               <li className="stack">HTML/CSS/Javacript</li>
               <li className="stack">ReactJs</li>

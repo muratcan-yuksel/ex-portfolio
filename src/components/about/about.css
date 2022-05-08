@@ -1,6 +1,6 @@
 .aboutComponent {
   /* background-color: black; */
-  height: 100vh;
+  height: 100%;
   color: black;
   /* -webkit-clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
   clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
@@ -14,21 +14,33 @@
 }
 .title {
   font-size: 3rem;
+  color: white;
 }
 .bigPara {
   font-size: 2rem;
 }
 .para {
+  font-size: 1.2rem;
 }
 .stack {
+  font-size: 1.2rem;
 }
 .glass {
   width: 35rem;
-  height: auto;
+  height: 100% !;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+}
+.stack {
+  width: auto;
+  /* border: 1px solid rgba(7, 7, 41, 0.75); */
+
+  margin: 0.5rem;
+}
+.techStack {
 }
