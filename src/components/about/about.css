@@ -12,8 +12,18 @@
 }
 .texts {
 }
+.title {
+  font-size: 3rem;
+}
+.bigPara {
+  font-size: 2rem;
+}
+.para {
+}
+.stack {
+}
 .glass {
-  width: auto;
+  width: 35rem;
   height: auto;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
