@@ -7,8 +7,10 @@
   margin-top: -10rem; */
   background-image: url("../../assets/images/bg9.png");
   background-repeat: no-repeat;
+  background-size: auto;
   background-position: center;
-  padding: 2rem;
+  padding: 5rem;
+  overflow: scroll;
 }
 .texts {
 }
@@ -26,7 +28,7 @@
   font-size: 1.2rem;
 }
 .glass {
-  width: 35rem;
+  width: auto;
   height: 100% !;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -39,8 +41,30 @@
 .stack {
   width: auto;
   /* border: 1px solid rgba(7, 7, 41, 0.75); */
-
   margin: 0.5rem;
+  padding: 0.5rem;
+  /* border: 1px solid white; */
+  border-radius: 16px;
+  background: linear-gradient(0.25turn, #1f6786, #ebf8e1, #f63cd7);
+  opacity: 0.8;
 }
 .techStack {
+}
+@media only screen and (max-width: 900px) {
+  /* .title {
+    font-size: 1rem;
+    color: white;
+  }
+  .bigPara {
+    font-size: 1rem;
+  }
+  .para {
+    font-size: 1rem;
+  }
+  .stack {
+    font-size: 1rem;
+  } */
+  .aboutComponent {
+    padding: 1.5rem;
+  }
 }

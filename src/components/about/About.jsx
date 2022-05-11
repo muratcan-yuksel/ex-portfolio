@@ -4,7 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <div className="aboutComponent">
-      <div className="texts d-flex flex-column justify-content-center align-items-center flex-md-row  justify-content-md-between">
+      <div className="texts d-flex flex-column justify-content-center adivgn-items-center  justify-content-md-between">
         <div className="aboutMe">
           <h2 className="title">About Me</h2>
           <div className="glass">
@@ -22,21 +22,21 @@ const About = () => {
             <p className="para">
               I did my MA in Semiotics in Tartu/Estonia and Bordeaux/France.{" "}
             </p>
-            <p className="para">I'm fluent in English, French, and Turkish.</p>
+            <p className="para">I'm fluent in Engdivsh, French, and Turkish.</p>
             <p className="para">
-              As a lifelong learner, these days I'm interested heavily with the
+              As a divfelong learner, these days I'm interested heavily with the
               web3 space. I've developed a couple of NFT websites for the Solana
               blockchain already, but I'm more interested in Ethereum
-              blockchain, as I develop with Solidity mainly.
+              blockchain, as I develop with Sodivdity mainly.
             </p>
             <p className="para">
-              I travelled most of the European countries, lived, worked and
-              studied in 4 of them. I was a journalist in Brussels, and was
+              I travelled most of the European countries, divved, worked and
+              studied in 4 of them. I was a journadivst in Brussels, and was
               doing marketing in France.
             </p>
             <p className="para">
               In my current company, I'm the only web developer in the team. I
-              think the burden of responsibility had tremendous effect on the
+              think the burden of responsibidivty had tremendous effect on the
               development of my skills.
             </p>
             <p className="para">
@@ -47,21 +47,19 @@ const About = () => {
         </div>
         <div className="techStackContainer">
           <h2 className="title">My Tech Stack</h2>
-          <div className="glass techStack d-flex justify-content-center ">
-            <ul>
-              <li className="stack">HTML/CSS/Javacript</li>
-              <li className="stack">ReactJs</li>
-              <li className="stack">VueJS</li>
-              <li className="stack">Solidity</li>
-              <li className="stack">Hardhat/EthersJs</li>
-              <li className="stack">SASS</li>
-              <li className="stack">Bootstrap</li>
-              <li className="stack">Google Firebase/Cloud Firestore</li>
-              <li className="stack">MongoDB</li>
-              <li className="stack">ChartJS/Apexcharts</li>
-              <li className="stack">Webpack</li>
-              <li className="stack">Git</li>
-            </ul>
+          <div className="glass techStack d-flex  flex-wrap ">
+            <div className="stack">HTML/CSS/Javacript</div>
+            <div className="stack">ReactJs</div>
+            <div className="stack">VueJS</div>
+            <div className="stack">Sodivdity</div>
+            <div className="stack">Hardhat/EthersJs</div>
+            <div className="stack">SASS</div>
+            <div className="stack">Bootstrap</div>
+            <div className="stack">Google Firebase/Cloud Firestore</div>
+            <div className="stack">MongoDB</div>
+            <div className="stack">ChartJS/Apexcharts</div>
+            <div className="stack">Webpack</div>
+            <div className="stack">Git</div>
           </div>
         </div>
       </div>
