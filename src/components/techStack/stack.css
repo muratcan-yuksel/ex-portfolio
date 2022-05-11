@@ -1,0 +1,14 @@
+.techStackContainer {
+  /* background-color: black; */
+  height: auto;
+  color: black;
+  /* -webkit-clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
+    clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
+    margin-top: -10rem; */
+  background-image: url("../../assets/images/bg9.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  padding: 5rem;
+  /* overflow: scroll; */
+}

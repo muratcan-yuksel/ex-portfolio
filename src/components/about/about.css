@@ -1,6 +1,6 @@
 .aboutComponent {
   /* background-color: black; */
-  height: 100%;
+  height: auto;
   color: black;
   /* -webkit-clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
   clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
@@ -10,7 +10,7 @@
   background-size: auto;
   background-position: center;
   padding: 5rem;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 .texts {
 }

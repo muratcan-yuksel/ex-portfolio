@@ -36,30 +36,13 @@ const About = () => {
             </p>
             <p className="para">
               In my current company, I'm the only web developer in the team. I
-              think the burden of responsibidivty had tremendous effect on the
+              think the burden of responsibility had tremendous effect on the
               development of my skills.
             </p>
             <p className="para">
               If you are interested in web3, have something in mind, or just
               want to say hello, please feel free to contact me :){" "}
             </p>
-          </div>
-        </div>
-        <div className="techStackContainer">
-          <h2 className="title">My Tech Stack</h2>
-          <div className="glass techStack d-flex  flex-wrap ">
-            <div className="stack">HTML/CSS/Javacript</div>
-            <div className="stack">ReactJs</div>
-            <div className="stack">VueJS</div>
-            <div className="stack">Sodivdity</div>
-            <div className="stack">Hardhat/EthersJs</div>
-            <div className="stack">SASS</div>
-            <div className="stack">Bootstrap</div>
-            <div className="stack">Google Firebase/Cloud Firestore</div>
-            <div className="stack">MongoDB</div>
-            <div className="stack">ChartJS/Apexcharts</div>
-            <div className="stack">Webpack</div>
-            <div className="stack">Git</div>
           </div>
         </div>
       </div>
