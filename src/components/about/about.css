@@ -51,7 +51,7 @@
 .techStack {
 }
 @media only screen and (max-width: 900px) {
-  /* .title {
+  .title {
     font-size: 1rem;
     color: white;
   }
@@ -63,7 +63,7 @@
   }
   .stack {
     font-size: 1rem;
-  } */
+  }
   .aboutComponent {
     padding: 1.5rem;
   }
