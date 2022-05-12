@@ -38,17 +38,8 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 1rem;
 }
-.stack {
-  width: auto;
-  /* border: 1px solid rgba(7, 7, 41, 0.75); */
-  margin: 0.5rem;
-  padding: 0.5rem;
-  /* border: 1px solid white; */
-  border-radius: 16px;
-  background: linear-gradient(0.25turn, #1f6786, #ebf8e1, #f63cd7);
-  opacity: 0.8;
-}
 .techStack {
+  margin-top: 2rem;
 }
 @media only screen and (max-width: 900px) {
   .title {

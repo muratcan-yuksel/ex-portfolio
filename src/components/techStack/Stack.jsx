@@ -5,20 +5,20 @@ const Stack = () => {
   return (
     <div className="techStackContainer">
       <h2 className="title">My Tech Stack</h2>
-      <div className="glass techStack d-flex  flex-wrap ">
-        <div className="stack">HTML/CSS/Javacript</div>
-        <div className="stack">ReactJs</div>
-        <div className="stack">VueJS</div>
-        <div className="stack">Sodidity</div>
-        <div className="stack">Hardhat/EthersJs</div>
-        <div className="stack">SASS</div>
-        <div className="stack">Bootstrap</div>
-        <div className="stack">Google Firebase/Cloud Firestore</div>
-        <div className="stack">MongoDB</div>
-        <div className="stack">ChartJS/Apexcharts</div>
-        <div className="stack">Webpack</div>
-        <div className="stack">Git</div>
-      </div>
+      <ul className="glass techStack  ">
+        <li className="stack">HTML/CSS/Javacript</li>
+        <li className="stack">ReactJs</li>
+        <li className="stack">VueJS</li>
+        <li className="stack">Sodidity</li>
+        <li className="stack">Hardhat/EthersJs</li>
+        <li className="stack">SASS</li>
+        <li className="stack">Bootstrap</li>
+        <li className="stack">Google Firebase/Cloud Firestore</li>
+        <li className="stack">MongoDB</li>
+        <li className="stack">ChartJS/Apexcharts</li>
+        <li className="stack">Webpack</li>
+        <li className="stack">Git</li>
+      </ul>
     </div>
   );
 };

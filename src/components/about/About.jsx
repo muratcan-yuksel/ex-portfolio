@@ -43,6 +43,28 @@ const About = () => {
               If you are interested in web3, have something in mind, or just
               want to say hello, please feel free to contact me :){" "}
             </p>
+            <div className="techStack d-flex justify-content-around">
+              <div className="leftStack">
+                <ul>
+                  <li className="stack">HTML/CSS/Javacript</li>
+                  <li className="stack">ReactJs</li>
+                  <li className="stack">VueJS</li>
+                  <li className="stack">Sodidity</li>
+                  <li className="stack">Hardhat/EthersJs</li>
+                  <li className="stack">SASS</li>
+                </ul>
+              </div>
+              <div className="rightStack">
+                <ul>
+                  <li className="stack">Bootstrap</li>
+                  <li className="stack">Google Firebase/Cloud Firestore</li>
+                  <li className="stack">MongoDB</li>
+                  <li className="stack">ChartJS/Apexcharts</li>
+                  <li className="stack">Webpack</li>
+                  <li className="stack">Git</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

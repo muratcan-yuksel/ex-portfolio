@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <ParallaxOne />
       <About />
-      <Stack />
+      {/* <Stack /> */}
     </div>
   );
 };
