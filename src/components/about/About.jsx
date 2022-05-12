@@ -22,16 +22,16 @@ const About = () => {
             <p className="para">
               I did my MA in Semiotics in Tartu/Estonia and Bordeaux/France.{" "}
             </p>
-            <p className="para">I'm fluent in Engdivsh, French, and Turkish.</p>
+            <p className="para">I'm fluent in English, French, and Turkish.</p>
             <p className="para">
-              As a divfelong learner, these days I'm interested heavily with the
+              As a lifelong learner, these days I'm interested heavily with the
               web3 space. I've developed a couple of NFT websites for the Solana
               blockchain already, but I'm more interested in Ethereum
-              blockchain, as I develop with Sodivdity mainly.
+              blockchain, as I develop with Solidity mainly.
             </p>
             <p className="para">
-              I travelled most of the European countries, divved, worked and
-              studied in 4 of them. I was a journadivst in Brussels, and was
+              I travelled most of the European countries, lived, worked and
+              studied in 4 of them. I was a journalist in Brussels, and was
               doing marketing in France.
             </p>
             <p className="para">
